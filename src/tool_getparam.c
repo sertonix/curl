@@ -457,7 +457,7 @@ static const struct LongShort aliases[]= {
   {"http3",                      ARG_NONE, ' ', C_HTTP3},
   {"http3-only",                 ARG_NONE, ' ', C_HTTP3_ONLY},
   {"ignore-content-length",      ARG_BOOL, ' ', C_IGNORE_CONTENT_LENGTH},
-  {"include",                    ARG_BOOL, 'i', C_INCLUDE},
+  {"include",                    ARG_BOOL, ' ', C_INCLUDE},
   {"insecure",                   ARG_BOOL, 'k', C_INSECURE},
   {"interface",                  ARG_STRG, ' ', C_INTERFACE},
   {"ip-tos",                     ARG_STRG, ' ', C_IP_TOS},
