@@ -25,5 +25,5 @@ To view the request headers, consider the --verbose option.
 Prior to 7.75.0 curl did not print the headers if --fail was used in
 combination with this option and there was error reported by server.
 
-This option was called --include before 8.10.0. The former name will remain
+This option was called --include before 8.10.0. The former name remains
 working.
