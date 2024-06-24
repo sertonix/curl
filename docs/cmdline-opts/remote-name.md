@@ -38,4 +38,4 @@ You may use this option as many times as the number of URLs you have.
 Before curl 8.10.0, curl returned an error if the URL ended with a slash,
 which means that there is no filename part in the URL. Starting in 8.10.0,
 curl sets the filename to the last directory part of the URL or if that also
-is missing to `default` (without extension) for this situation.
+is missing to `curl_response` (without extension) for this situation.

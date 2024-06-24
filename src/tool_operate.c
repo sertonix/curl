@@ -1144,7 +1144,7 @@ static CURLcode single_transfer(struct GlobalConfig *global,
             }
             if(!*per->outfile && !config->content_disposition) {
               free(per->outfile);
-              per->outfile = strdup("default");
+              per->outfile = strdup("curl_response");
               if(!per->outfile) {
                 result = CURLE_OUT_OF_MEMORY;
                 break;
